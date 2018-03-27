@@ -2,7 +2,7 @@
 
 **<h2> Dokumentointi <h2>**
 
-[Alustava määrittelydokumentti](https://github.com/tvalkone/otm-harjoitustyo/tree/master/dokumentointi/alustava_määrittelydokumentti.md)
+<h3>[Alustava määrittelydokumentti](https://github.com/tvalkone/otm-harjoitustyo/tree/master/dokumentointi/alustava_määrittelydokumentti.md)<h3>
 
 
 **<h2>Tehtävät<h2>**
