@@ -13,3 +13,7 @@
 [gitlog.txt](https://github.com/tvalkone/otm-harjoitustyo/tree/master/laskarit/viikko1/gitlog.txt)
 
 
+**<h3>Dokumentointi<h3>**
+
+[Alustava määrittelydokumentti](https://github.com/tvalkone/otm-harjoitustyo/tree/master/dokumentointi/alustava_määrittelydokumentti.md)
+
