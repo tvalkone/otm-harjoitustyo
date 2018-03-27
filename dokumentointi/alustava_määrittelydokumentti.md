@@ -1,17 +1,17 @@
-**<h1> Vaatimusmäärittely <h1>**
+**<h1> Vaatimusmäärittely <h1>
 
 
-**<h2>Sovelluksen tarkoitus<h2>**
+**<h2>Sovelluksen tarkoitus<h2>
 
 Sovellus mahdollistaa IT-projektin tai muun vastaavan projektin tuntikirjanpidon ja työajan seurannan. 
 Käyttäjät kirjaavat tehdyn työajan projektikohtaisesti projektin sisäisille tehtäville (task). 
 Kirjattua työaikaa voi seurata raporteilta. Sovellus toteutetaan englanniksi.
 
-**<h2> Käyttäjät <h2>**
+**<h2> Käyttäjät <h2>
 
 Sovelluksella on aluksi kaksi eri käyttäjäroolia : projektipäällikkö (project manager) ja tavallinen käyttäjä (user).
 
-**<h2> Sovelluksen toiminnallisuudet perusversiossa <h2>**
+**<h2> Sovelluksen toiminnallisuudet perusversiossa <h2>
 
 <h3> Kirjautuminen <h3>
 
@@ -40,6 +40,10 @@ Sovelluksella on aluksi kaksi eri käyttäjäroolia : projektipäällikkö (proj
 
 * Käyttäjä voi katsoa vanhoja viikkoraportteja 
 
+
+<h2> Jatkokehitys <h2> 
+
+
 <h3> Sovelluksen käyttö projektipäällikkönä <h3>
 
 *  Tavallisen käyttäjän toiminnallisuuksien lisäksi projektipäällikkö voi hallinnoida projekteja
@@ -53,9 +57,9 @@ Sovelluksella on aluksi kaksi eri käyttäjäroolia : projektipäällikkö (proj
 	    
    *   Projektipäällikkö näkee kaikkien projektille kirjanneiden käyttäjien projektille/tehtäville kirjaaman ajan.
 
-<h3> Jatkokehitys <h3>
+<h3> Muita kehityskohteita <h3>
 
 *   Käyttäjän ajanseuranta kuukausitasolla
-*   Projektipäällikön ajan seuranta ja raportointi
+*   Projektipäällikön erilaiset projekti/kuukausi/viikko/käyttäjä -raportointimallit
 *   Kommenttien lisääminen viikkoraporteille
-*   
+
