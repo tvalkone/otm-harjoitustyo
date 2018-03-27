@@ -9,7 +9,7 @@ Kirjattua työaikaa voi seurata raporteilta. Sovellus toteutetaan englanniksi.
 
 <h2> Käyttäjät <h2>
 
-Sovelluksella on aluksi kaksi eri käyttäjäroolia : projektipäällikkö (project manager) ja tavallinen käyttäjä (user).
+Sovelluksella on aluksi tavallisen käyttäjän (user) rooli, mutta jatkokehitysversiossa myös projektipäällikö (project manager) rooli.
 
 <h2> Sovelluksen toiminnallisuudet perusversiossa <h2>
 
