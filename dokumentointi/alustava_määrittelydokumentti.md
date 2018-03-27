@@ -46,7 +46,7 @@ Sovelluksella on aluksi kaksi eri käyttäjäroolia : projektipäällikkö (proj
 
    *   Projektipäällikkö voi luoda uuden projektin
 
-       *   Projektilla on nimi, viisi merkkiä pitkä projektinumero, alku- ja loppupäivämäärä muodossa dd.mm.yyyy, projektin tila (open/closed) ja yksi projektipäälikkö.
+       *   Projektilla on nimi, viisi merkkiä pitkä projektinumero, alku- ja loppupäivämäärä muodossa dd.mm.yyyy, projektin tila (open/closed) ja yksi projektipäällikkö.
        *   Projektille voi lisätä myös tavallisia käyttäjiä jolloin projekti näkyy käyttäjän projektinäkymässä ja käyttäjä voi kirjata sille työaikaa.
   
    *   Projektipäällikkö voi muuttaa projektin loppupäivämäärää tai sulkea projektin jolloin projektille ei voi enää kirjata tunteja.   
@@ -55,3 +55,7 @@ Sovelluksella on aluksi kaksi eri käyttäjäroolia : projektipäällikkö (proj
 
 <h3> Jatkokehitys <h3>
 
+*   Käyttäjän ajanseuranta kuukausitasolla
+*   Projektipäällikön ajan seuranta ja raportointi
+*   Kommenttien lisääminen viikkoraporteille
+*   
