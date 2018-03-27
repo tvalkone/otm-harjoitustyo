@@ -1,13 +1,13 @@
-**<h1> Vaatimusmäärittely <h1>
+*<h1> Vaatimusmäärittely <h1>*
 
 
-**<h2>Sovelluksen tarkoitus<h2>
+*<h2>Sovelluksen tarkoitus<h2>*
 
 Sovellus mahdollistaa IT-projektin tai muun vastaavan projektin tuntikirjanpidon ja työajan seurannan. 
 Käyttäjät kirjaavat tehdyn työajan projektikohtaisesti projektin sisäisille tehtäville (task). 
 Kirjattua työaikaa voi seurata raporteilta. Sovellus toteutetaan englanniksi.
 
-**<h2> Käyttäjät <h2>
+_<h2> Käyttäjät <h2>_
 
 Sovelluksella on aluksi kaksi eri käyttäjäroolia : projektipäällikkö (project manager) ja tavallinen käyttäjä (user).
 
