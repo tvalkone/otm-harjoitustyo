@@ -1,8 +1,8 @@
 **<h1>OTM-harjoitustyö<h1>**
 
-**<h2> Dokumentointi <h2>**
+**<h3> Dokumentointi <h3>**
 
-<h3>[Alustava määrittelydokumentti](https://github.com/tvalkone/otm-harjoitustyo/tree/master/dokumentointi/alustava_määrittelydokumentti.md)<h3>
+[Alustava määrittelydokumentti](https://github.com/tvalkone/otm-harjoitustyo/tree/master/dokumentointi/alustava_määrittelydokumentti.md)
 
 
 **<h2>Tehtävät<h2>**
