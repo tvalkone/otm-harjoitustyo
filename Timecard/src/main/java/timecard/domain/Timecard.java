@@ -5,7 +5,10 @@
  */
 package timecard.domain;
 
-
-public class timecard {
+/**
+ *
+ * @author tvalkone
+ */
+public class Timecard {
     
 }
