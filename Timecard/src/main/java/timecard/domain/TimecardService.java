@@ -17,6 +17,7 @@ public class TimecardService {
     private Map<String, List<Timecard>> UsersAndTimecards;
     private Database database;
     private UserDAO userdao;
+    private TimecardDAO timecarddao;
     
     /**
      *
@@ -24,6 +25,7 @@ public class TimecardService {
      */
     public TimecardService(Database d){
        this.userdao = new UserDAO(d);
+       this.timecarddao = new TimecardDAO(d, this.userdao);
        this.database = d;   
     }
        
@@ -71,6 +73,15 @@ public class TimecardService {
     public UserDAO getUserdao() {
         return userdao;
     }
+
+    public TimecardDAO getTimecarddao() {
+        return timecarddao;
+    }
+
+    public void setTimecarddao(TimecardDAO timecarddao) {
+        this.timecarddao = timecarddao;
+    }
+    
 }    
            
         
