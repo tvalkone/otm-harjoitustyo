@@ -1,8 +1,4 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 
 import org.junit.After;
 import org.junit.AfterClass;
@@ -10,12 +6,16 @@ import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
 import static org.junit.Assert.*;
+import timecard.domain.*;
+import timecard.ui.*;
 
 /**
  *
  * @author tvalkone
  */
 public class TimecardTest {
+    
+    User user1;
     
     public TimecardTest() {
     }
@@ -30,15 +30,29 @@ public class TimecardTest {
     
     @Before
     public void setUp() {
+        String password = "test2";
+        String userid = "test1";
+        String forename = "test3";
+        String surname = "test4";
+        user1 = new User(userid,password,forename,surname);
     }
     
     @After
     public void tearDown() {
     }
-
-    // TODO add test methods here.
-    // The methods must be annotated with annotation @Test. For example:
-    //
-    // @Test
-    // public void hello() {}
+    
+    @Test
+    public void consturctorSetCorrectUserInfo() {
+        
+    
+        String test1 = user1.getUserId(); 
+        assertEquals("test1", test1);
+        String test2 = user1.getPassword(); 
+        assertEquals("test2", test2);
+        String test3 = user1.getForename(); 
+        assertEquals("test3", test3);
+        String test4 = user1.getSurname(); 
+        assertEquals("test4", test4);
+    }
+    
 }

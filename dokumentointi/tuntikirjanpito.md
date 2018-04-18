@@ -7,5 +7,5 @@
 |  5.4. | 2    | luokkien suunnittelua|
 |  9.4. | 4    | luokkien toteutusta, käyttöliittymän suunnittelua|
 | 10.4. | 3    | luokkien toteutusta, käyttöliittymän toteutusta, tietokantayhteydet|
-| 17.4. | 6    | luokkien toteutusta, käyttöliittymän toteutusta, tietokantatauluja|
-|**yht.**|**23**| 
+| 17.4. | 7    | luokkien toteutusta, käyttöliittymän toteutusta, tietokantatauluja, testeusta|
+|**yht.**|**30**| 
