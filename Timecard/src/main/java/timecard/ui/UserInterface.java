@@ -57,7 +57,7 @@ public class UserInterface {
                                     System.out.print("Project: ");
                                     String projectid = reader.nextLine();
                                     String timecardid = userid + projectid + week;
-                                    if(this.service.getTimecarddao().findOne(timecardid).getStatus()){
+                                    if(this.service.getTimecarddao().findOne(timecardid) == null){
                                         System.out.print("how many hours for Monday: ");
                                         Double day1 = Double.parseDouble(reader.nextLine());
                                         System.out.print("how many hours for Tuesday: ");
