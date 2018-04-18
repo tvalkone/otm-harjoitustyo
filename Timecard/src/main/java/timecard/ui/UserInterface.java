@@ -49,9 +49,9 @@ public class UserInterface {
                                 System.out.println("");
                                 System.out.print("Action: ");
                                 String action2 = reader.nextLine();
-                                if (action.equals("x")){
+                                if (action2.equals("x")){
                                     break;
-                                }else if (action.equals("2")){
+                                }else if (action2.equals("2")){
                                     System.out.print("Week: ");
                                     String week = reader.nextLine();
                                     System.out.print("Project: ");
@@ -59,21 +59,28 @@ public class UserInterface {
                                     String timecardid = userid + projectid + week;
                                     if(this.service.getTimecarddao().findOne(timecardid).getStatus()){
                                         System.out.print("how many hours for Monday: ");
-                                        String day1 = reader.nextLine();
+                                        Double day1 = Double.parseDouble(reader.nextLine());
                                         System.out.print("how many hours for Tuesday: ");
-                                        String day2 = reader.nextLine();
+                                        Double day2 = Double.parseDouble(reader.nextLine());
                                         System.out.print("how many hours for Wednesday: ");
-                                        String day3 = reader.nextLine();
+                                        Double day3 = Double.parseDouble(reader.nextLine());
                                         System.out.print("how many hours for Thursday: ");
-                                        String day4 = reader.nextLine();
+                                        Double day4 = Double.parseDouble(reader.nextLine());
                                         System.out.print("how many hours for Friday: ");
-                                        String day5 = reader.nextLine();
+                                        Double day5 = Double.parseDouble(reader.nextLine());
                                         System.out.print("how many hours for Saturday: ");
-                                        String day6 = reader.nextLine();
+                                        Double day6 = Double.parseDouble(reader.nextLine());
                                         System.out.print("how many hours for Sunday: ");
-                                        String day7 = reader.nextLine();
+                                        Double day7 = Double.parseDouble(reader.nextLine());
                                         Timecard c = new Timecard(userid, projectid, week);
                                         c.setTimecardId(timecardid);
+                                        c.setDay1(day1);
+                                        c.setDay2(day2);
+                                        c.setDay3(day3);
+                                        c.setDay4(day4);
+                                        c.setDay5(day5);
+                                        c.setDay6(day6);
+                                        c.setDay7(day7);
                                         
                                         this.service.getTimecarddao().save(c);
                                         System.out.print("Timecard saved!");
