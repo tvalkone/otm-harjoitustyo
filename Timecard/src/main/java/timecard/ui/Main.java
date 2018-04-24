@@ -1,19 +1,12 @@
 
 package timecard.ui;
-import timecard.domain.*;
-import java.sql.*;
-import java.util.Scanner;
+
+import javafx.application.Application;
 
 public class Main {
 
-    public static void main(String[] args) throws Exception {
-        Scanner reader = new Scanner(System.in);
-        Database database = new Database("jdbc:sqlite:timecard.db");
-        UserInterface ui = new UserInterface(reader, database);
-        ui.start();
-
-    
-        
-
+    public static void main(String[] args) {
+        Application.launch(UserInterface.class, args);
     }
 }
+

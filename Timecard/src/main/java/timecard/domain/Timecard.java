@@ -120,6 +120,10 @@ public class Timecard {
     public void setStatus(Boolean open) {
         this.status = open;
     }
+    @Override
+    public String toString() {
+        return this.timecardId;
+    }    
     
     
   

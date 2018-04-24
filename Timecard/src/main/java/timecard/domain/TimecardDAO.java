@@ -1,6 +1,9 @@
 package timecard.domain;
 import java.util.*;
 import java.sql.*;
+import javafx.collections.FXCollections;
+import static javafx.collections.FXCollections.observableArrayList;
+import javafx.collections.ObservableList;
 import timecard.domain.DAO;
 import timecard.domain.Database;
 import timecard.domain.Timecard;
@@ -59,9 +62,9 @@ public class TimecardDAO implements DAO<Timecard, String> {
      * @throws SQLException
      */
     @Override
-    public List<Timecard> findAll() throws SQLException {
+    public ObservableList<Timecard> findAll() throws SQLException {
        
-        List<Timecard> timecards = new ArrayList<>();
+        ObservableList<Timecard> timecards = FXCollections.observableArrayList();
         Connection conn = database.getConnection();
         PreparedStatement stmt = conn.prepareStatement("SELECT * FROM timecards");
         ResultSet rs = stmt.executeQuery();
